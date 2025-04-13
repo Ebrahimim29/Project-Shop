@@ -1,6 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .navBar{
     background-color: #0A490A;
     display: flex;
     justify-content: space-evenly;
     color: white;
+    align-items: center;
+    padding: 2rem;
+}
+.menu{
+    display: flex;
+    gap: 2rem;
+    list-style: none;    
+}
+.searchBox{
+    height: 2rem;
+    position: relative;
+    display: flex;
+}
+.searchBox img{
+    position: absolute;
+    left: 5px;
+    top: 3px;
+    height: 85%;
+}
+.searchBox select , .searchBox input{
+    height: 100%;
+    background-color: transparent;
+    color: inherit;
+    padding-inline: 1rem;
+    border: 1px solid white;    
+}
+.searchBox select option{
+    color: black;
+}
+.operation{
+    display: flex;
+    gap: 1.5rem;
+}
+.iconBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 3rem;
+    font-size: 0.5rem;
+}
+.iconBox img{
+    transform: scale(0.6);
+}
+.banner{
+    position: relative;
+    background-color: #FFC107;
+    padding: 2rem 5rem;
+    color: #0A490A;
+}
+.banner .badge{
+    background-color: #B4C8B1;
+    padding: 0.3rem 1rem;
+    border-radius: 0.8rem;
+    font-size: 0.8rem;    
+}
+.title{
+    font-size: 5rem;    
+}
+.about{
+    font-size: 1.5rem;
+    width: 70%;
+}
+.btnbanner{
+    font-size: 1rem;
+    padding: 0.3rem 1.5rem;
+    border-radius: 0.5rem;    
+    background-color: #B4C8B1;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border: none;
+    color: inherit;
+}
+.mt_1{
+    margin-top: 1rem;
+}
+.discount{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    top: 2rem;
+    width: 6rem;    
+}
+strong{
+    position: absolute;
+    width: 100%;
+    color: white;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%,-50%); */
+}
+img .w_100{
+    width: 100%;
+}
+.fruitsBanner{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 35%;
+}
+.fruitsBanner img{
+    width: 100%;
 }
