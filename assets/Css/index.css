@@ -1,17 +1,6 @@
-@font-face {
-    font-family: vazir;
-    src: url(/assets/Fonts/Vazir-Bold.woff);
-    /* src: url(/assets/Fonts/Vazir-Light.ttf); */
-}
-*{
-    direction: rtl;
-    font-family: vazir;
-    box-sizing: border-box;
-}
-body{
-    font-size: 16px;
-    margin: 0;    
-}
-a{
-    text-decoration: none;
+.navBar{
+    background-color: #0A490A;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
 }
