@@ -116,3 +116,53 @@ img .w_100{
 .fruitsBanner img{
     width: 100%;
 }
+
+/* Container Styles */
+.productItem{
+    width: 20%;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+}
+.productItem img{
+    width: 100%;
+}
+.productInformation{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    padding: 0.5rem;
+    z-index: 1;
+}
+.productInformation h4{
+    color: #FFC107;
+}
+.productInformation p{
+    font-size: 0.7rem;
+}
+.productInformation button{
+    background-color: #FFC107;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.5rem;
+    color: #0A490A;
+    font-weight: bolder;
+}
+.productsSection{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+.productCover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+}
+/* part:74 4:36 */
